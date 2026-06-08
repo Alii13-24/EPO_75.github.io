@@ -1,0 +1,91 @@
+body{
+	background-color: #780B0B; /* fondo de la página gris para que sea gris claro el nombre del color es lightgray*/*/
+}
+/*Diseño del menú*/
+.menu{
+    background-color: #083054;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/*Diseño de los enlaces*/
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+    font-family: Arial;
+    transition: 0.2s;
+}
+
+/*Efecto al pasar el mouse*/
+.menu a:hover{
+    color: #094766;
+}
+h1.titulo1{
+	color: #1D1FDE;
+	text-align: center;
+	font-family: cursive;
+	font-size: 28px;
+	
+}
+p.parrafo1{
+	color: white;
+    text-align: center;
+	font-family: small-caps;
+	font-size: 20px;
+}
+h1.titulo2{
+	color: #315BD4;
+	text-align: center;
+	font-family: cursive;
+	font-size: 26px;
+}
+p.parrafo2{
+	color: white;
+    text-align: center;
+	font-family: small-caps;
+	font-size: 18px;
+}
+.contenedor{
+    text-align: center;
+}
+.img{
+    width: 350px; /*tamaño de la imagen a lo ancho*/
+    height: 350px; /*tamaño de la imagen a lo largo*/
+    padding: 5px; /*tamaño de la imagen a lo largo*/
+    margin: 5px; /*margen entre cada imagen*/
+    border: 1px solid black; /*borde de la imagen*/
+    display: inline-block;
+}
+p.parrafo3{
+	color: white;
+    text-align: right;
+	font-family: small-caps;
+	font-size: 14px;
+}
+p.parrafo4{
+	color: white;
+    text-align: left;
+	font-family: small-caps;
+	font-size: 14px;
+}
+p.parrafo5{
+	color: white;
+    text-align: right;
+	font-family: small-caps;
+	font-size: 14px;
+}
+p.parrafo6{
+	color: white;
+    text-align: left;
+	font-family: small-caps;
+	font-size: 14px;
+}
+p.parrafo7{
+	color: white;
+    text-align: right;
+	font-family: small-caps;
+	font-size: 14px;
+}

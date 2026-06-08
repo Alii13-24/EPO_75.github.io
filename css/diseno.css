@@ -1,0 +1,109 @@
+body{
+	background-color: #1F701F; /* fondo de la página gris para que sea gris claro el nombre del color es lightgray*/
+}
+/*Diseño del menú*/
+.menu{
+    background-color: #780B0B; /* color azul del menú*/
+    padding: 10px; /* tamaño de la franja azul*/
+    text-align: center;/* texto centrado*/
+    border-radius: 10px; /* redondeado de las esquinas del la franja azul*/
+}
+
+/*Diseño de los enlaces*/
+.menu a{
+    color: white; /*color de la letra de los enlases*/
+    text-decoration: none; /*Quita el subrayado de los enlases (texto)*/
+    font-size: 20px; /*Tamaño de la letra*/
+    margin: 15px; /*Espacio entre cada palabra*/
+    font-family: Arial; /*Tipo de la letra*/
+    transition: 0.3s; /*Yiempo de cambio*/
+}
+
+/*Efecto al pasar el mouse*/
+.menu a:hover{ 
+    color: #094766; /*Color del texto de los enlaces al pasar el cursor (amarillo) */
+}
+h1.titulo1{
+	color: white;
+	text-align: center;
+	font-family: Times New Roman;
+}
+p.parrafo1{
+	color: white;
+    text-align: left;
+	font-family: Times New Roman;
+}
+h1.titulo2{
+	color: white;
+	text-align: center;
+	font-family: Times New Roman;
+}
+p.parrafo2{
+	color: white;
+    text-align: left;
+	font-family: Times New Roman;
+}
+p.parrafo3{
+	color: white;
+    text-align: left;
+	font-family: Times New Roman;
+	
+}
+
+.contenedor{
+    text-align: center;
+}
+.img{
+    width: 400px; /*tamaño de la imagen a lo ancho*/
+    height: 400px; /*tamaño de la imagen a lo largo*/
+    padding: 30px; /*tamaño de la imagen a lo largo*/
+    margin: 10px; /*margen entre cada imagen*/
+    border: 2px solid black; /*borde de la imagen*/
+    display: inline-block; /*Las dos imágenes se mantienen en la misma línea*/
+}
+h1.titulo3{
+	color: white;
+	text-align: left;
+	font-family: Times New Roman;
+}
+p.parrafo4{
+	color: white;
+    text-align: left;
+	font-family: Times New Roman;
+}
+h1.titulo4{
+	color: white;
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 14;
+	
+}
+p.parrafo5{
+	color: white;
+    text-align: center;
+	font-family: Times New Roman;
+	font-size: 14;
+}
+
+
+.contenedor-video{
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border: 3px solid #0078D7;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* Título */
+.contenedor-video h1{
+    color: #0078D7;
+}
+/* Video */
+.contenedor-video video{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+} 
